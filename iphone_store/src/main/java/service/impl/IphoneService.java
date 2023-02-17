@@ -16,4 +16,8 @@ public class IphoneService implements IIphoneService {
         }
         return iIphoneRepository.listAll(iphoneName);
     }
+    @Override
+    public boolean inserIphone(Iphone iphone) {
+        return this.iIphoneRepository.inserUser(iphone);
+    }
 }
