@@ -21,7 +21,51 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <button type="button" class="btn-secondary">
+                <a href="/iphone?action=create" style="color: white">Create iphone product</a>
+            </button>
+        </div>
+        <div class="col-6">
+            <form action="/iphone" method="get">
+            <div class="form-group float-left w-75">
+                <input type="text" class="form-control" name="nameSearch" id="nameSearch" aria-describedby="helpId" placeholder="Input iphonename" value="${nameSearch}">
+            </div>
+                <div class="float-left w-25">
+                    <input type="submit" class="btn-secondary" name="search" value="Search">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <td>ID</td>
+        <td>Product</td>
+        <td>Name</td>
+        <td>Supplier</td>
+        <td>Photo</td>
+        <td>Price</td>
+        <td>Quatity</td>
+    </tr>
+    </thead>
+    <tbody>
+    <c:forEach var="iphone" items="${iphoneList}" varStatus="stt">
+        <tr>
+            <td>${stt.count}</td>
+            <td>${iphone.productName}</td>
+            <td>${iphone.iphoneName}</td>
+            <td>${iphone.supplier}</td>
+            <td><img style="height: 20%;width: 20%" src="${iphone.photo}"></td>
+            <td>${iphone.price}</td>
+            <td>${iphone.quantity}</td>
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
