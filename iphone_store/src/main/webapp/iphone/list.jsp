@@ -11,7 +11,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>List Iphone</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +31,8 @@
         <div class="col-6">
             <form action="/iphone" method="get">
             <div class="form-group float-left w-75">
-                <input type="text" class="form-control" name="nameSearch" id="nameSearch" aria-describedby="helpId" placeholder="Input iphonename" value="${nameSearch}">
+                <input type="text" class="form-control" name="nameSearch" id="nameSearch" aria-describedby="helpId"
+                       placeholder="Input iphonename" value="${nameSearch}">
             </div>
                 <div class="float-left w-25">
                     <input type="submit" class="btn-secondary" name="search" value="Search">

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ecfade0-f6a9-4766-94c0-66c501680ba6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/iphone_store/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/controller/AccessoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/model/Accessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/repository/IAccessoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/repository/impl/AccessoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/service/IAccessoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/java/service/impl/AccessoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iphone_store/src/main/webapp/iphone/list2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/build/classes/java/main/repository/impl/IphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/build/classes/java/main/repository/impl/IphoneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/build/libs/Iphone_store-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/build/libs/Iphone_store-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/src/main/java/repository/impl/IphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/src/main/java/repository/impl/IphoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iphone_store/src/main/webapp/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/iphone_store/src/main/webapp/iphone/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Lrkul5b8JPP0l7eOHgusPKIdbY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ecfade0-f6a9-4766-94c0-66c501680ba6" name="Changes" comment="" />
+      <created>1676636818273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676636818273</updated>
+      <workItem from="1676636820225" duration="234000" />
+      <workItem from="1676692254462" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
