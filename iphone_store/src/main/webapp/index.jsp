@@ -6,6 +6,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
+
 <a href="/accessory">acc</a>
 <a href="/iphone">ip</a>
 </body>
