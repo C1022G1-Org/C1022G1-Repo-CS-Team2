@@ -11,7 +11,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>CREATE</title>
+    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,57 +21,6 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<h1>Create new User</h1>
-<p>
-    <c:if test='${requestScope["message"]!=null}'>
-        <span class="message">${requestScope["message"]}</span>
-    </c:if>
-</p>
-<p>
-    <a href="/iphone">BACK TO USER LIST</a>
-</p>
-<form action="/iphone?action=create" method="post">
-    <fieldset>
-        <legend>User information</legend>
-        <table>
-            <tr>
-                <td>Loại Sản Phẩm</td>
-                <td><select name="id_lsp">
-                    <option value="1">Điện Thoại</option>
-                    <option value="2">Phụ kiện</option>
-                </select>
-                </td>
-            </tr>
-            <tr>
-                <td>Product Name</td>
-                <td><input type="text" name="name"></td>
-            </tr>
-            <tr>
-                <td>Supplier</td>
-                <td><input type="text" name="supplier"></td>
-            </tr>
-            <tr>
-                <td>Photo</td>
-                <td><input type="text" name="photo"></td>
-            </tr>
-            <tr>
-                <td>Price</td>
-                <td><input type="text" name="price"></td>
-            </tr>
-            <tr>
-                <td>Quantity</td>
-                <td><input type="text" name="quantity"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button type="submit">CREATE IHPHONE</button>
-                </td>
-            </tr>
-
-        </table>
-    </fieldset>
-</form>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

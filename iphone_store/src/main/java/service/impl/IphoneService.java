@@ -3,7 +3,7 @@ package service.impl;
 import model.Iphone;
 import repository.IIphoneRepository;
 import repository.impl.IphoneRepository;
-import service.IIphoneService;
+import service.IIphoneService;;
 
 import java.util.List;
 
@@ -15,9 +15,5 @@ public class IphoneService implements IIphoneService {
             iphoneName = "";
         }
         return iIphoneRepository.listAll(iphoneName);
-    }
-    @Override
-    public boolean inserIphone(Iphone iphone) {
-        return this.iIphoneRepository.inserUser(iphone);
     }
 }

@@ -6,6 +6,8 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<c:redirect url="/iphone"></c:redirect>
+
+<a href="/accessory">acc</a>
+<a href="/iphone">ip</a>
 </body>
 </html>

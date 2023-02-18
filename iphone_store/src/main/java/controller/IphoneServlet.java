@@ -23,7 +23,6 @@ public class IphoneServlet extends HttpServlet {
         }
         switch (action){
             case "create":
-                createFormIphone(request,response);
                 break;
             case "update":
                 break;
@@ -32,17 +31,6 @@ public class IphoneServlet extends HttpServlet {
             default:
                 listForm(request, response);
                 break;
-        }
-    }
-
-    private void createFormIphone(HttpServletRequest request, HttpServletResponse response) {
-        RequestDispatcher dispatcher=request.getRequestDispatcher("iphone/create.jsp");
-        try {
-            dispatcher.forward(request,response);
-        } catch (ServletException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
@@ -62,30 +50,6 @@ public class IphoneServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String action = request.getParameter("action");
-        if (action == null){
-            action = "";
-        }
-        switch (action){
-            case "create":
-                createIphone(request,response);
-                break;
-            case "update":
-                break;
-            case "delete":
-                break;
-        }
-    }
 
-    private void createIphone(HttpServletRequest request, HttpServletResponse response) {
-        int id = Integer.parseInt(request.getParameter("id_lsp"));
-        String productName = request.getParameter("name");
-        String supplier = request.getParameter("supplier");
-        String photo = request.getParameter("photo");
-        double price = Double.parseDouble(request.getParameter("price"));
-        int quantity = Integer.parseInt(request.getParameter("quantity"));
-        Iphone iphone = new Iphone(id,productName,supplier,photo,price,quantity);
-        iIphoneService.inserIphone(iphone);
-       listForm(request,response);
     }
 }
