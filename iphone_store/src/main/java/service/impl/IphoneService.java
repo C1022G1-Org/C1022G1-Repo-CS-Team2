@@ -26,4 +26,9 @@ public class IphoneService implements IIphoneService {
     public Iphone findById(int id) {
         return iIphoneRepository.findById(id);
     }
+
+    @Override
+    public boolean inserIphone(Iphone iphone) {
+        return this.iIphoneRepository.inserIphone(iphone);
+    }
 }
