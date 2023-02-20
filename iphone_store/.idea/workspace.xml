@@ -10,25 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d58311c-c2f8-4ee0-abc5-0d221cf449ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/IphoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/IphoneServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Iphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Iphone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/IIphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/IIphoneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/impl/IphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/impl/IphoneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/IIphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/IIphoneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/impl/IphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/impl/IphoneService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Iphone_store-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Iphone_store-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/controller/IphoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/controller/IphoneServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/model/Iphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/model/Iphone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/IIphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/IIphoneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/impl/IphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/impl/IphoneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/IIphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/IIphoneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/BaseRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +50,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module_3/bai_tap/ss12_bai_tap_user/user/user",
+    "last_opened_file_path": "D:/test/C1022G1-Repo-CS-Team2/iphone_store",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -179,9 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676859521414</updated>
-
       <workItem from="1676859522852" duration="17201000" />
-
+      <workItem from="1676897123220" duration="326000" />
     </task>
     <servers />
   </component>
