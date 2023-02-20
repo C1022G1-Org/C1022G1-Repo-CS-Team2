@@ -10,70 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d58311c-c2f8-4ee0-abc5-0d221cf449ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/iphone/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_9_0_71.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/IphoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/IphoneServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Iphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Iphone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/IIphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/IIphoneRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/impl/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/impl/BaseRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/impl/IphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/impl/IphoneRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/IIphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/IIphoneService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/impl/IphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/impl/IphoneService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Iphone_store-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Iphone_store-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/IphoneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IphoneServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IIphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IIphoneRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/BaseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/impl/IphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/impl/IphoneRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/IIphoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/IIphoneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/IphoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/IphoneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/iphone/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/iphone/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/controller/IphoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/controller/IphoneServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/model/Iphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/model/Iphone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/IIphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/IIphoneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/impl/IphoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/repository/impl/IphoneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/IIphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/IIphoneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/iphone/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +64,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/case_study_3/C1022G1-Repo-CS-Team2/iphone_store/src/main/webapp",
+    "last_opened_file_path": "D:/codegym/module_3/bai_tap/ss12_bai_tap_user/user/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -223,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676859521414</updated>
-      <workItem from="1676859522852" duration="2708000" />
+      <workItem from="1676859522852" duration="16364000" />
     </task>
     <servers />
   </component>
@@ -240,5 +195,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/repository/impl/IphoneRepository.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
