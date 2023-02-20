@@ -63,10 +63,41 @@
             <td><img style="height: 20%;width: 20%" src="${iphone.photo}"></td>
             <td>${iphone.price}</td>
             <td>${iphone.quantity}</td>
+            <td>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId" onclick="deleteIphone(${iphone.id})">
+                    Delete
+                </button>
+            </td>
         </tr>
     </c:forEach>
     </tbody>
 </table>
+
+<!-- Modal -->
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Iphone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Do you sure wanna delete it ?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <form action="/iphone" method="get">
+                    <input type="hidden" name="action" value="delete">
+                    <input type="hidden" name="deleteIphone" id="deleteIphone">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -79,5 +110,10 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="/js/bootstrap.js"></script>
+<script>
+    function deleteIphone(id){
+        document.getElementById("deleteIphone").value = id;
+    }
+</script>
 </body>
 </html>

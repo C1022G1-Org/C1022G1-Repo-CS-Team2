@@ -27,10 +27,22 @@ public class IphoneServlet extends HttpServlet {
             case "update":
                 break;
             case "delete":
+                deleteIphone(request, response);
                 break;
             default:
                 listForm(request, response);
                 break;
+        }
+    }
+
+    private void deleteIphone(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("deleteIphone"));
+        this.iIphoneService.delete(id);
+        RequestDispatcher dispatcher;
+        try {
+                response.sendRedirect("/iphone");
+            } catch (IOException ioException) {
+            ioException.printStackTrace();
         }
     }
 
@@ -47,6 +59,7 @@ public class IphoneServlet extends HttpServlet {
             e.printStackTrace();
         }
     }
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

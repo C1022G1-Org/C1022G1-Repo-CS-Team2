@@ -16,4 +16,14 @@ public class IphoneService implements IIphoneService {
         }
         return iIphoneRepository.listAll(iphoneName);
     }
+
+    @Override
+    public void delete(int id) {
+        iIphoneRepository.delete(id);
+    }
+
+    @Override
+    public Iphone findById(int id) {
+        return iIphoneRepository.findById(id);
+    }
 }
