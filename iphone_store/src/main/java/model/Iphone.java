@@ -31,6 +31,15 @@ public class Iphone {
         this.quantity = quantity;
     }
 
+    public Iphone(int id, String productName, String supplier, String photo, double price, int quantity) {
+        this.id = id;
+        this.productName = productName;
+        this.supplier = supplier;
+        this.photo = photo;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
     public int getId() {
         return id;
     }
@@ -71,7 +80,7 @@ public class Iphone {
         this.photo = photo;
     }
 
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
 
@@ -79,7 +88,7 @@ public class Iphone {
         this.price = price;
     }
 
-    public int getQuantity() {
+    public String getQuantity() {
         return quantity;
     }
 
