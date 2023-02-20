@@ -9,5 +9,6 @@ import java.util.List;
 
 public interface IIphoneRepository {
     List<Iphone> listAll(String iphoneName);
-
-}
+    void delete (int id);
+    Iphone findById(int id);
+    }
