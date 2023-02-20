@@ -2,6 +2,7 @@ package model;
 
 public class Iphone {
     private  int id;
+    private int id_lsp;
     private  String productName;
     private String iphoneName;
     private String supplier;
@@ -34,6 +35,17 @@ public class Iphone {
     public Iphone(int id, String productName, String supplier, String photo, double price, int quantity) {
         this.id = id;
         this.productName = productName;
+        this.supplier = supplier;
+        this.photo = photo;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public Iphone(int id, int id_lsp, String iphoneName, String supplier, String photo, double price, int quantity) {
+        this.id = id;
+        this.id_lsp = id_lsp;
+        this.productName = productName;
+        this.iphoneName = iphoneName;
         this.supplier = supplier;
         this.photo = photo;
         this.price = price;
@@ -80,7 +92,7 @@ public class Iphone {
         this.photo = photo;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
@@ -88,11 +100,19 @@ public class Iphone {
         this.price = price;
     }
 
-    public String getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public int getId_lsp() {
+        return id_lsp;
+    }
+
+    public void setId_lsp(int id_lsp) {
+        this.id_lsp = id_lsp;
     }
 }

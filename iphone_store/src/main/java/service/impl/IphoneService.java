@@ -31,4 +31,9 @@ public class IphoneService implements IIphoneService {
     public boolean inserIphone(Iphone iphone) {
         return this.iIphoneRepository.inserIphone(iphone);
     }
+
+    @Override
+    public boolean updateIphone(int id, Iphone iphone) {
+     return    this.iIphoneRepository.updateIphone(id,iphone);
+    }
 }

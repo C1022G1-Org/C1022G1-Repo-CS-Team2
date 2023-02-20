@@ -22,9 +22,9 @@
     </c:if>
 </p>
 <p>
-    <a href="/user"> BACK TO LIST USER</a>
+    <a href="/iphone"> BACK TO LIST IPHONE</a>
 </p>
-<form action="/user?action=edit" method="post">
+<form action="/iphone?action=edit" method="post" >
     <fieldset>
         <legend>User Information</legend>
         <table class="table table-striped">
@@ -32,7 +32,40 @@
                 <td>id</td>
                 <td><input type="hidden" name="id" value="${iphone.id}"></td>
             </tr>
+            <td><select name="id_lsp">
+                <option value="1">Điện Thoại</option>
+                <option value="2">Phụ kiện</option>
+            </select>
+            </td>
+            <tr>
+                <td>iphoneName</td>
+                <td><input type="text" name="iphoneName" value="${iphone.iphoneName}"></td>
+            </tr>
 
+            <tr>
+                <td>supplier</td>
+                <td><input type="text" name="supplier" value="${iphone.supplier}"></td>
+            </tr>
+
+            <tr>
+                <td>photo</td>
+                <td><input type="text" name="photo" value="${iphone.photo}"></td>
+            </tr>
+
+            <tr>
+                <td>price</td>
+                <td><input type="text" name="price" value="${iphone.price}"></td>
+            </tr>
+
+            <tr>
+                <td>quantity</td>
+                <td><input type="text" name="quantity" value="${iphone.quantity}"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button type="submit">Edit iphone</button></td>
+            </tr>
         </table>
     </fieldset>
 </form>
