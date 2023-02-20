@@ -27,6 +27,7 @@
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/WEB-INF/classes/service/impl/IphoneService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/create.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/Iphone_store-1.0-SNAPSHOT.war/iphone/list.jsp" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/iphone/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +179,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676859521414</updated>
-      <workItem from="1676859522852" duration="16364000" />
+
+      <workItem from="1676859522852" duration="17201000" />
+
     </task>
     <servers />
   </component>
