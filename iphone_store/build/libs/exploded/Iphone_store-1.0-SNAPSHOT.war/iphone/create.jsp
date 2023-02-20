@@ -33,7 +33,7 @@
 <form action="/iphone?action=create" method="post">
     <fieldset>
         <legend>User information</legend>
-        <table>
+        <table class="table table-success table-striped">
             <tr>
                 <td>Loại Sản Phẩm</td>
                 <td><select name="id_lsp">

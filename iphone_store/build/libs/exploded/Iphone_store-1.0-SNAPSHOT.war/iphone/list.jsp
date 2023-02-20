@@ -65,13 +65,43 @@
             <td>${iphone.price}</td>
             <td>${iphone.quantity}</td>
             <td><!-- Button trigger modal -->
-                <a class="btn btn-primary"
-                   href="/user?action=edit&id=${user.id}">Edit</a>
+                <button type="button" class="btn btn-primary">
+                    <a href="/iphone?action=edit&id=${iphone.id}" style="color: white; text-decoration: none; height: 15px" >Edit</a>
+                </button>
             </td>
+            <td>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modelId" onclick="deleteIphone(${iphone.id})">
+                    Delete
+                </button>
         </tr>
     </c:forEach>
     </tbody>
 </table>
+<!-- Modal -->
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Iphone</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Do you sure wanna delete it ?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <form action="/iphone" method="get">
+                    <input type="hidden" name="action" value="delete">
+                    <input type="hidden" name="deleteIphone" id="deleteIphone">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -84,5 +114,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="/js/bootstrap.js"></script>
+
+<script>
+    function deleteIphone(id){
+        document.getElementById("deleteIphone").value = id;
+    }
+</script>
 </body>
 </html>
