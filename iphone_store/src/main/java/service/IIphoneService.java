@@ -9,4 +9,5 @@ public interface IIphoneService {
     void delete (int id);
     Iphone findById(int id);
     boolean inserIphone(Iphone iphone);
+    boolean updateIphone(int id, Iphone iphone);
 }

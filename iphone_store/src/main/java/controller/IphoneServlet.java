@@ -25,7 +25,8 @@ public class IphoneServlet extends HttpServlet {
             case "create":
                 createFormIphone(request,response);
                 break;
-            case "update":
+            case "edit":
+                showEdit(request,response);
                 break;
             case "delete":
                 deleteIphone(request, response);
@@ -34,6 +35,13 @@ public class IphoneServlet extends HttpServlet {
                 listForm(request, response);
                 break;
         }
+    }
+
+    private void showEdit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+            int id =Integer.parseInt(request.getParameter("id"));
+            Iphone iphone =this.iIphoneService.findById(id);
+            request.setAttribute("iphone",iphone);
+            request.getRequestDispatcher("/iphone/edit.jsp").forward(request,response);
     }
 
     private void createFormIphone(HttpServletRequest request, HttpServletResponse response) {
@@ -84,7 +92,8 @@ public class IphoneServlet extends HttpServlet {
             case "create":
                 pcreateFormIphone(request,response);
                 break;
-            case "update":
+            case "edit":
+                edit(request,response);
                 break;
             case "delete":
                 deleteIphone(request, response);
@@ -92,6 +101,31 @@ public class IphoneServlet extends HttpServlet {
             default:
                 listForm(request, response);
                 break;
+        }
+    }
+
+    private void edit(HttpServletRequest request, HttpServletResponse response) {
+        int id =Integer.parseInt(request.getParameter("id"));
+        int id_lsp =Integer.parseInt(request.getParameter("id_lsp"));
+        String iphoneName=request.getParameter("iphoneName");
+        String supplier = request.getParameter("supplier");
+        String photo =request.getParameter("photo");
+        double price = Double.parseDouble(request.getParameter("price"));
+        int quantity =Integer.parseInt(request.getParameter("quantity"));
+        Iphone iphone = new Iphone(id,id_lsp,iphoneName,supplier,photo,price,quantity);
+        RequestDispatcher dispatcher =null;
+        if (iphone==null){
+            dispatcher=request.getRequestDispatcher("iphone/edit.jsp");
+        }else {
+            this.iIphoneService.updateIphone(id,iphone);
+            listForm(request,response);
+        }
+        try {
+            dispatcher.forward(request,response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 

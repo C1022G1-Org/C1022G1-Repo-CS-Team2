@@ -16,7 +16,7 @@ public class IphoneRepository implements IIphoneRepository {
             " lsp.id_loai_san_pham" + " where sp.ten_san_pham like concat('%', ?, '%') and sp.id_loai_san_pham = 1";
     private static final String DELETE_IPHONE = "delete from san_pham s where s.id = ?";
     private static final String INSERT_INTO="insert into san_pham(id_loai_san_pham,ten_san_pham,nha_cung_cap,hinh_anh,gia,so_luong) value(?,?,?,?,?,?)";
-    private static final String UPDATE_IHONE = "update san_pham set ten_san_pham=?,nha_cung_cap=?,hinh_anh=?,gia=?,so_luong=? where id=?";
+    private static final String UPDATE_IHONE = "update san_pham set id_loai_san_pham=?,ten_san_pham=?,nha_cung_cap=?,hinh_anh=?,gia=?,so_luong=? where id=?";
 
 
     @Override
@@ -59,19 +59,19 @@ public class IphoneRepository implements IIphoneRepository {
     public Iphone findById(int id) {
         PreparedStatement preparedStatement = null;
         try {
-            preparedStatement = BaseRepository.getConnection().prepareStatement("select id, id_loai_san_pham, ten_san_pham, nha_cung_cap, hinh_anh, gia, so_luong from san_pham where id = ?");
+            preparedStatement = BaseRepository.getConnection().prepareStatement(" select id, lsp.ten_loai_san_pham, ten_san_pham, nha_cung_cap, hinh_anh, gia, so_luong from san_pham join loai_san_pham as lsp on san_pham.id_loai_san_pham = lsp.id_loai_san_pham where id =?;\n");
             preparedStatement.setInt(1, id);
             Iphone iphone;
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 iphone = new Iphone();
                 iphone.setId(resultSet.getInt("id"));
-                iphone.setProductName(resultSet.getString("productName"));
-                iphone.setIphoneName(resultSet.getString("iphoneName"));
-                iphone.setSupplier(resultSet.getString("supplier"));
-                iphone.setPhoto(resultSet.getString("photo"));
-                iphone.setPrice(resultSet.getDouble("price"));
-                iphone.setQuantity(resultSet.getInt("quantity"));
+                iphone.setProductName(resultSet.getString("lsp.ten_loai_san_pham"));
+                iphone.setIphoneName(resultSet.getString("ten_san_pham"));
+                iphone.setSupplier(resultSet.getString("nha_cung_cap"));
+                iphone.setPhoto(resultSet.getString("hinh_anh"));
+                iphone.setPrice(resultSet.getDouble("gia"));
+                iphone.setQuantity(resultSet.getInt("so_luong"));
                 return iphone;
             }
         } catch (SQLException throwables) {
@@ -101,21 +101,21 @@ public class IphoneRepository implements IIphoneRepository {
     @Override
     public boolean updateIphone(int id, Iphone iphone) {
         Connection connection=BaseRepository.getConnection();
-        try {
+       try {
             PreparedStatement preparedStatement=connection.prepareStatement(UPDATE_IHONE);
-            preparedStatement.setString(1,iphone.getIphoneName());
-            preparedStatement.setString(2,iphone.getSupplier());
-            preparedStatement.setString(3, iphone.getPhoto());
-            preparedStatement.setString(4, iphone.getPrice());
-            preparedStatement.setString(5, iphone.getQuantity());
-            preparedStatement.setInt(6,id);
+           preparedStatement.setInt(1,iphone.getId_lsp());
+           preparedStatement.setString(2,iphone.getIphoneName());
+           preparedStatement.setString(3,iphone.getSupplier());
+           preparedStatement.setString(4,iphone.getPhoto());
+           preparedStatement.setDouble(5,iphone.getPrice());
+           preparedStatement.setInt(6,iphone.getQuantity());
+           preparedStatement.setInt(7,iphone.getId());
             return preparedStatement.executeUpdate()>0;
         }  catch (SQLException throwables) {
             throwables.printStackTrace();
         }
         return  false;
 
-    }
     }
 
 }
